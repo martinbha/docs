@@ -1,6 +1,7 @@
 # Table of contents
 
-* [What is MyProduct?](README.md)
+* [ReapChain](README.md)
+  * [Private Repo Access](reapchain/private-repo-access.md)
 
 ## Guides
 
