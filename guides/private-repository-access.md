@@ -1,4 +1,4 @@
-# Private Repo Access
+# Private Repository Access
 
 ## GitHub User Token
 
@@ -6,12 +6,12 @@ In order to access a private repository in GitHub, you first need to create a pe
 \
 Please follow these steps to create one for your own account.
 
-1. Log into your account.&#x20;
+1. Log into your **account**.&#x20;
 2. In the upper-right corner of any page, click your profile photo, then click **Settings**.
 3. In the left sidebar, click **Developer settings**.
 4. In the left sidebar, click **Personal access tokens**.&#x20;
 5. Click **Generate new token**.
-6. Give your token a descriptive name.
+6. Give your token a descriptive **name**.
 7. Select an **expiration** date and also access permission for the token, such as **'repo'**
 8. Click **Generate token**.
 9. Copy this **token** to clipboard.

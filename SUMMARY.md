@@ -4,4 +4,4 @@
 
 ## Guides
 
-* [Private Repo Access](guides/private-repo-access.md)
+* [Private Repository Access](guides/private-repository-access.md)
