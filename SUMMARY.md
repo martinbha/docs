@@ -2,6 +2,15 @@
 
 * [ReapChain](README.md)
 
-## Guides
+## User Guides
 
-* [Private Repository Access](guides/private-repository-access.md)
+* [Initial Setup](user-guides/initial-setup.md)
+* [Account](user-guides/account.md)
+* [Faucet](user-guides/faucet.md)
+* [Coin Transfer](user-guides/coin-transfer.md)
+
+## Developer Guides
+
+* [Private Repository Access](developer-guides/private-repository-access.md)
+* [Build](developer-guides/build.md)
+* [Node Setup](developer-guides/node-setup.md)
