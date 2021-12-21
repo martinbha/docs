@@ -8,14 +8,9 @@ If you would like to setup a general node on your local machine to participate a
 ```
 DATA_PATH="./reapchain_data/1"
 rm -rf $DATA_PATH
-
 ./reapchaind init my-node --chain-id mercury --home $DATA_PATH
-
 cp ---DOWNLOADED-GENESIS-FILE---  $DATA_PATH/config/genesis.json
-
-sed -i 's/allow_duplicate_ip = false/allow_duplicate_ip = true/g' $DATA_PATH/config/config.toml
-
-sed -i "s/persistent_peers = .*/persistent_peers = \"dc5df6f60fde5882e849719227b4a3e34e78b5e5@3.37.240.100:27100\"/g" $DATA_PATH/config/config.toml
+sed -i "s/persistent_peers = .*/persistent_peers = \"9ebf4d066ea092a7965e73f3f3d463e9b9162df7@13.124.192.87:27000\"/g" $DATA_PATH/config/config.toml
 ./reapchaind start --home $DATA_PATH 
 
 ```
