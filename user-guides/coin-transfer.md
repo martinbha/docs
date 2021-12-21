@@ -13,15 +13,15 @@ You will need to change the variables in the command:
 1. **$MY\_ADDRESS** - Your address for your account
 2. **$RECIPIENT\_ADDRESS** - The address you want to transfer some coins to
 3. **$AMOUNT** - The amount of coins you want to transfer and also the denomination (200ureap)
-4. **$NODE\_IP** - The IP address for a node in the ReapChain TestNet. Currently you can use [http://3.37.240.100:27100/](http://3.37.240.100:27100)
-5. **$CHAIN\_ID** - The ID for the blockchain. Currently you can use reapchain
+4. **$NODE\_IP** - The IP address for a node in the ReapChain TestNet. Currently you can use [http://13.124.192.87:27100/](http://13.124.192.87:27100)
+5. **$CHAIN\_ID** - The ID for the blockchain. Currently you can use "mercury"
 6. **$FEE\_AMOUNT** - The amount of fees you need to pay in order for a successful transaction. Currently the amount you have to pay is 20000ureap.
 7. **$DIRECTORY** - The directory where you stored your keys when you created your account.
 
 An example:
 
 ```
-./reapchaind tx bank send  reap1rdwpue39cxt7meyp4t8v3ufs86sqx0hj95j6c5 reap1yklx36ud99wulgd5p805pkg34xsrarwqgtpqx6 200ureap --node http://3.37.240.100:27100/ --chain-id reapchain --fees 20000ureap --home test_dir
+./reapchaind tx bank send  reap1rdwpue39cxt7meyp4t8v3ufs86sqx0hj95j6c5 reap1yklx36ud99wulgd5p805pkg34xsrarwqgtpqx6 200ureap --node http://13.124.192.87:27100/ --chain-id mercury--fees 20000ureap --home test_dir
 ```
 
 If successful the return messages should be:&#x20;
@@ -44,13 +44,13 @@ In order to check your balance, you need to execute this command:
 You need to replace these variables:
 
 1. **$MY\_ADDRESS** - Your address for your account
-2. **$NODE\_IP** - The IP address for a node in the ReapChain TestNet. Currently you can use [http://3.37.240.100:27100/](http://3.37.240.100:27100)
-3. **$CHAIN\_ID** - The ID for the blockchain. Currently you can use reapchain
+2. **$NODE\_IP** - The IP address for a node in the ReapChain TestNet. Currently you can use [http://13.124.192.87:27100/](http://13.124.192.87:27100)
+3. **$CHAIN\_ID** - The ID for the blockchain. Currently you can use "mercury"
 
 An example:
 
 ```
-./reapchaind query bank balances reap1rdwpue39cxt7meyp4t8v3ufs86sqx0hj95j6c5 --node http://3.37.240.100:27100/ --chain-id reapchain
+./reapchaind query bank balances reap1rdwpue39cxt7meyp4t8v3ufs86sqx0hj95j6c5 --node http://13.124.192.87:27100/ --chain-id mercury
 ```
 
 If successful, the return message should look like this:

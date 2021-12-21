@@ -9,9 +9,13 @@ There are two ways you can do this
 1. Visit [http://faucet.reapchain.com/](http://faucet.reapchain.com)&#x20;
 2. Enter your account address
 3. Verify that you are not a robot
-4. Transfer some coins
+4. Click "Send Coins" which will transfer 10reap to your account
 
 ![](../.gitbook/assets/Capture.PNG)
+
+### Coin Values
+
+REAP is the network’s native cryptocurrency. The smallest unit of REAP is the uREAP or the micro REAP, where 1 reap = 1,000,000 ureap.
 
 ### Command Line Interface
 
@@ -42,13 +46,13 @@ In order to check your balance, you need to execute this command:
 You need to replace these variables:
 
 1. **$MY\_ADDRESS** - Your address for your account
-2. **$NODE\_IP** - The IP address for a node in the ReapChain TestNet. Currently you can use [http://3.37.240.100:27100/](http://3.37.240.100:27100)
-3. **$CHAIN\_ID** - The ID for the blockchain. Currently you can use reapchain
+2. **$NODE\_IP** - The IP address for a node in the ReapChain TestNet. Currently you can use [http://13.124.192.87:27100/](http://13.124.192.87:27100)
+3. **$CHAIN\_ID** - The ID for the blockchain. Currently you can use "mercury"
 
 An example:
 
 ```
-./reapchaind query bank balances reap1rdwpue39cxt7meyp4t8v3ufs86sqx0hj95j6c5 --node http://3.37.240.100:27100/ --chain-id reapchain
+./reapchaind query bank balances reap1rdwpue39cxt7meyp4t8v3ufs86sqx0hj95j6c5 --node http://13.124.192.87:27100/ --chain-id mercury
 ```
 
 If successful, the return message should look like this:

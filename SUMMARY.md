@@ -13,4 +13,3 @@
 ## Developer Guides
 
 * [Private Repository Access](developer-guides/private-repository-access.md)
-* [Build](developer-guides/build.md)
