@@ -1,14 +1,5 @@
 # ReapChain
 
-
-
-
-
-Test From Github
-
-
-
-
 ## About Us
 
 ReapChain was created to solve the problems of the existing IoT Blockchain.
