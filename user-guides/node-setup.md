@@ -2,10 +2,20 @@
 
 If you would like to setup a general node on your local machine to participate and store data for the Blockchain, the you can do so by following these step:
 
-1. Download the Genesis.json file from [here](https://raw.githubusercontent.com/reapchain/testnets/e9f5839fb7d26f036dd5099e49c9b63d0a208b53/genesis.json).
-2. Replace "---DOWNLOADED-GENESIS-FILE---" with the path of the downloaded Genesis File
-3. Replace "------YOUR IP ADDRESS------" with your local IP Address
-4. Execute this bash script
+* Download the Genesis.json file from [here](https://raw.githubusercontent.com/reapchain/testnets/e9f5839fb7d26f036dd5099e49c9b63d0a208b53/genesis.json).
+* Check the integrity of the genesis.json file with this:
+
+```
+sha1sum genesis.json
+```
+
+* Your output should be the same as the following:&#x20;
+
+```
+f2f40bfc58e3812bcbecbeb96b4be9201dd7e9d5  genesis.json
+```
+
+* Create a Bash Script using the following as a template
 
 ```
 #!/bin/bash
@@ -21,3 +31,7 @@ sed -i "s/persistent_peers = .*/persistent_peers = \"8a360cdeed68ae452346e465201
 
 
 ```
+
+* Replace "---DOWNLOADED-GENESIS-FILE---" with the path of the downloaded Genesis File
+* Replace "------YOUR IP ADDRESS------" with your local IP Address
+* Execute the bash.
