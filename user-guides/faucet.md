@@ -46,13 +46,13 @@ In order to check your balance, you need to execute this command:
 You need to replace these variables:
 
 1. **$MY\_ADDRESS** - Your address for your account
-2. **$NODE\_IP** - The IP address for a node in the ReapChain TestNet. Currently you can use [http://13.124.192.87:27100/](http://13.124.192.87:27100)
+2. **$NODE\_IP** - The IP address for a node in the ReapChain TestNet. Currently you can use [http://3.34.158.5:27100/](http://3.34.158.5:27100)
 3. **$CHAIN\_ID** - The ID for the blockchain. Currently you can use "mercury"
 
 An example:
 
 ```
-./reapchaind query bank balances reap1rdwpue39cxt7meyp4t8v3ufs86sqx0hj95j6c5 --node http://13.124.192.87:27100/ --chain-id mercury
+./reapchaind query bank balances reap1rdwpue39cxt7meyp4t8v3ufs86sqx0hj95j6c5 --node http://3.34.158.5:27100/ --chain-id mercury
 ```
 
 If successful, the return message should look like this:
