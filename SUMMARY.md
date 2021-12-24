@@ -1,6 +1,6 @@
 # Table of contents
 
-* [ReapChain](README.md)
+* [Mercury TestNet](README.md)
 
 ## User Guides
 
